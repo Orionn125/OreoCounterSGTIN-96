@@ -89,7 +89,6 @@ namespace OreoFinder
             foreach (string line in lines){ 
 
                 string bin = p.HexStringToBinary(line);
-           //     Console.WriteLine(bin + " ovo je bin");
 
                 string header = bin.Substring(0, 8);
                 string filter = bin.Substring(8,3);
